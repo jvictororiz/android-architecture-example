@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">now</string>
+    <string name="title">Artistas</string>
+    <string name="error">Ocorreu um erro. Tente novamente.</string>
+    <string name="alert_offline">Dados carregados offline</string>
+    <string name="n_o_possui_uma_conta_cadastre_aqui">Não possui uma conta?\nCadastre aqui.</string>
+    <string name="login">LOGIN</string>
+    <string name="password">Senha</string>
+    <string name="esqueci_a_senha">Esqueci a senha</string>
+    <string name="cadastrar">Cadastrar</string>
+    <string name="username">Username</string>
+    <string name="next">Próximo</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="hint_name">Ex:João</string>
+    <string name="input_name">
+         Olá, pode nos dizer seu
+        <font fgcolor='#9849e5'> nome</font>
+    </string>
+
+    <string name="input_email">
+           Ótimo, agora nos diga seu
+        <font fgcolor='#9849e5'> E-mail</font>
+    </string>
+
+    <string name="input_birthday">
+          Muito bem, precisamos agora que você informe a sua
+        <font fgcolor='#9849e5'> data de nascimento</font>
+    </string>
+
+    <string name="input_password">
+          Quase lá, precisamos agora que você crie uma <font fgcolor='#9849e5'> senha</font> para acessar o app
+    </string>
+
+    <string name="input_confirm_password">
+          Para finalizar, apenas confirme a sua <font fgcolor='#9849e5'> senha</font>
+    </string>
+
+
+    <string name="hint_email">joao@mail.com</string>
+    <string name="voltar">Voltar</string>
+    <string name="hint_date">Ex: 26/06/1997</string>
+    <string name="hint_password">*******</string>
+    <string name="favoritos">Favoritos</string>
+    <string name="sim">Sim</string>
+    <string name="nao">Não</string>
+    <string name="sair">Sair</string>
+
+</resources>

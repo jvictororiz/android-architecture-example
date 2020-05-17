@@ -1,0 +1,12 @@
+Layout
+- Coloquei o layout dentro de um Constraintlayot, assim economizaria processamento não tendo que colocar um viewGroup dentro do outro.
+- Removi o NestedScrollView pois ele remove as propriedades de recyclagem do recyclerview fazendo o com que fique lento diante de grande quantidade de dados, para isso transformei o titulo em um item da lista
+- no item da lista removi os 
+
+Arquitetura
+- Adicionei a biblioteca room para persistência de dados
+
+_____________________________
+Adicionar o Koin
+
+

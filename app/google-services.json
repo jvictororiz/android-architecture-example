@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "980903248289",
+    "firebase_url": "https://supermercado-now-a292e.firebaseio.com",
+    "project_id": "supermercado-now-a292e",
+    "storage_bucket": "supermercado-now-a292e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:980903248289:android:f1c0b7ea93fae9b954cbe0",
+        "android_client_info": {
+          "package_name": "com.now.desafio.android"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "980903248289-jd920iqmcfvauo53c8s7tip1r9ruf29p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB8mOKVqpC9doirlt3rs1XQ8z-FGQmTCqg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "980903248289-jd920iqmcfvauo53c8s7tip1r9ruf29p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

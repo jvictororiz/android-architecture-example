@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimaryLight">#ACB1BD</color>
+    <color name="colorDetail">#80FFFFFF</color>
+    <color name="white">#FFF</color>
+    <color name="colorPrimary">#9849e5</color>
+    <color name="colorPrimaryDark">#9849e5</color>
+    <color name="colorAccent">#9849e5</color>
+    <color name="background_gradient_init">#9849e5</color>
+    <color name="background_gradient_final">#f36969</color>
+    <color name="colorLetter">#9C9292</color>
+    <color name="colorLetterDark">#3C3737</color>
+    <color name="gray_low">#289849E5</color>
+    <color name="random_example">#944545</color>
+    <color name="random_example2">#4B2C6B</color>
+
+</resources>

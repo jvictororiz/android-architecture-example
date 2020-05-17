@@ -1,0 +1,7 @@
+{
+  "timestamp": "2019-02-15T10:59:54.300+0000",
+  "status": 500,
+  "error": "Internal Server Error",
+  "message": "Erro ao buscar informações, favor verifique sua conexão",
+  "path": "/fake-server/*"
+}

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_login"
+    app:startDestination="@id/loginFragment">
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.now.desafio.android.ui.navigations.registerFlow.LoginFragment"
+        android:label="LoginFragment"
+        tools:layout="@layout/fragment_login">
+        <action
+            android:id="@+id/action_loginFragment_to_registerOrEditNameFragment"
+            app:destination="@id/registerOrEditNameFragment" />
+        <action
+            android:id="@+id/action_loginFragment_to_mainListFragment2"
+            app:destination="@id/mainListFragment2" />
+        <argument
+            android:name="user"
+            app:argType="com.now.desafio.android.data.entities.User"
+            app:nullable="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/registerOrEditNameFragment"
+        android:name="com.now.desafio.android.ui.navigations.registerFlow.RegisterOrEditNameFragment"
+        android:label="RegisterOrEditNameFragment"
+        tools:layout="@layout/fragment_register_or_edit_name">
+        <action
+            android:id="@+id/action_registerOrEditNameFragment_to_registerOrEditFragmentEmail"
+            app:destination="@id/registerOrEditFragmentEmail" />
+        <argument
+            android:name="user"
+            android:defaultValue="@null"
+            app:argType="com.now.desafio.android.data.entities.User"
+            app:nullable="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/registerOrEditFragmentEmail"
+        android:name="com.now.desafio.android.ui.navigations.registerFlow.RegisterOrEditEmailFragment"
+        android:label="RegisterOrEditFragmentEmail"
+        tools:layout="@layout/fragment_register_email">
+        <action
+            android:id="@+id/action_registerOrEditFragmentEmail_to_loginFragment"
+            app:destination="@id/loginFragment" />
+        <action
+            android:id="@+id/action_registerOrEditFragmentEmail_to_registerOrEditEmailDataNascimentoFragment"
+            app:destination="@id/registerOrEditEmailDataNascimentoFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/registerOrEditEmailDataNascimentoFragment"
+        android:name="com.now.desafio.android.ui.navigations.registerFlow.RegisterOrEditDataNascimentoFragment"
+        android:label="RegisterOrEditEmailDataNascimentoFragment"
+        tools:layout="@layout/fragment_register_date_nascimento">
+        <action
+            android:id="@+id/action_registerOrEditEmailDataNascimentoFragment_to_loginFragment"
+            app:destination="@id/loginFragment" />
+        <action
+            android:id="@+id/action_registerOrEditEmailDataNascimentoFragment_to_registerOrEditPasswordFragment"
+            app:destination="@id/registerOrEditPasswordFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/registerOrEditPasswordFragment"
+        android:name="com.now.desafio.android.ui.navigations.registerFlow.RegisterOrEditPasswordFragment"
+        android:label="RegisterOrEditPasswordFragment"
+        tools:layout="@layout/fragment_register_password">
+        <action
+            android:id="@+id/action_registerOrEditPasswordFragment_to_loginFragment"
+            app:destination="@id/loginFragment" />
+        <action
+            android:id="@+id/action_registerOrEditPasswordFragment_to_registerOrEditConfirmPasswordFragment"
+            app:destination="@id/registerOrEditConfirmPasswordFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/registerOrEditConfirmPasswordFragment"
+        android:name="com.now.desafio.android.ui.navigations.registerFlow.RegisterOrEditConfirmPasswordFragment"
+        android:label="RegisterOrEditConfirmPasswordFragment"
+        tools:layout="@layout/fragment_register_confirm_password">
+        <action
+            android:id="@+id/action_registerOrEditConfirmPasswordFragment_to_loginFragment"
+            app:destination="@id/loginFragment" />
+        <action
+            android:id="@+id/action_registerOrEditConfirmPasswordFragment_to_mainListFragment2"
+            app:destination="@id/mainListFragment2"
+            app:popUpToInclusive="true"
+            app:popUpTo="@id/loginFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/mainListFragment2"
+        android:name="com.now.desafio.android.ui.navigations.mainFlow.MainListFragment"
+        android:label="MainListFragment"
+        tools:layout="@layout/fragment_main">
+        <action
+            android:id="@+id/action_mainListFragment2_to_mainUserDetailedFragment2"
+            app:destination="@id/mainUserDetailedFragment2" />
+        <argument
+            android:name="user"
+            app:argType="com.now.desafio.android.data.entities.User" />
+        <action
+            android:id="@+id/action_mainListFragment2_to_registerOrEditNameFragment"
+            app:destination="@id/registerOrEditNameFragment" />
+        <action
+            android:id="@+id/action_mainListFragment2_to_loginFragment2"
+            app:destination="@id/loginFragment"
+            app:popUpToInclusive="true"
+            app:popUpTo="@id/loginFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/mainUserDetailedFragment2"
+        android:name="com.now.desafio.android.ui.navigations.mainFlow.MainUserDetailedFragment"
+        android:label="MainUserDetailedFragment"
+        tools:layout="@layout/fragment_main_user_detailed">
+        <argument
+            android:name="artist"
+            app:argType="com.now.desafio.android.data.entities.Artist" />
+    </fragment>
+
+</navigation>
