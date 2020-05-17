@@ -1,14 +1,12 @@
 package com.now.desafio.android.ui.navigations.registerFlow
 
-import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.navigation.ActivityNavigator
 import androidx.navigation.findNavController
 import com.now.desafio.android.R
-import kotlinx.android.synthetic.main.activity_login_and_register.*
 import org.koin.androidx.viewmodel.ext.android.viewModel
 
-class LoginAndRegisterActivity : AppCompatActivity(R.layout.activity_login_and_register) {
+class MainActivity : AppCompatActivity(R.layout.activity_main) {
     private val viewModel: RegisterAndLoginViewModel by viewModel()
 
     override fun onSupportNavigateUp(): Boolean {

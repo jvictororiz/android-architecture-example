@@ -17,7 +17,7 @@
         android:theme="@style/AppTheme"
         tools:targetApi="n">
         <activity
-            android:name=".ui.navigations.registerFlow.LoginAndRegisterActivity"
+            android:name=".ui.navigations.registerFlow.MainActivity"
             android:configChanges="orientation|keyboardHidden"
             android:screenOrientation="fullSensor"
             android:windowSoftInputMode="adjustResize">
